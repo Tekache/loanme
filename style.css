@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    /* background-color: black; */
+    /* color: white; */
+}
+
+header{
+    background: #000000c0;
+    color: white;
+    padding: 20px;
+}
+main{
+    max-width: 100%;
+    /* background-color: #FFFF; */
+    padding: 20px;
+    /* margin: ; */
+    margin-top: -100px;
+}
+.block{
+    width: 100%;
+    margin-right: 50px;
+}
+
+.log{
+    /* margin-left: 30%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.log button{
+    margin: 50px;
+}
+
+.box{
+    display: flex;
+    /* flex-direction: column; */
+    background-color: whitesmoke;
+}
+
+.parent{
+    display: flex;
+    width: 100%;
+}
+.child{
+    margin: auto;
+    height: 200px;
+    border-color: #000;
+    margin-bottom: 50px;
+    /* margin-right: 500px; */
+}
+
+#apple{
+    width: 12em;
+    margin: 50px;
+    background: #fff;
+    color: #000;
+}
+
+.download{
+    width: 100%;
+    background: #000;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    padding: auto;
+}
+.text{
+    padding: 50px;
+}
+
+
+
+@media screen and (max-width: 767.98px) {
+
+    .log button{
+        flex-wrap: nowrap;
+        
+    }
+    .container{
+        /* flex-wrap: nowrap; */
+        float: unset;
+    }
+    .row{
+        flex: unset;
+        /* justify-content: start; */
+        color: white;
+    }
+    .button{
+        width: 70%;
+    }
+    main{
+        background-color: #000;
+        max-width: 100%;
+    }
+    #tab{
+        width: 70%;
+    }
+}
+
+@media (min-width: 992px) {
+
+ }
